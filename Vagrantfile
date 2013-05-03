@@ -18,7 +18,11 @@
 
 dhostname = "devstack.local"
 
+ 
+
 Vagrant::Config.run do |config|
+
+config.vm.boot_mode = :gui
 
   config.vm.define :devstack do |devstack_config|
 
