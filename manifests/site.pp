@@ -44,8 +44,7 @@ node /^devstack/ {
 
 # , http://fedorapeople.org/groups/heat/prebuilt-jeos-images/F16-x86_64-cfntools.qcow2,http://fedorapeople.org/groups/heat/prebuilt-jeos-images/F16-i386-cfntools.qcow2'"
 # ENABLED_SERVICES+=,heat,h-api,h-api-cfn,h-api-cw,h-eng
-	$localrc_cnt = "
-NOVA_BRANCH=stable/grizzly
+	$localrc_cnt = "NOVA_BRANCH=stable/grizzly
 CINDER_BRANCH=stable/grizzly
 GLANCE_BRANCH=stable/grizzly
 HORIZON_BRANCH=stable/grizzly
